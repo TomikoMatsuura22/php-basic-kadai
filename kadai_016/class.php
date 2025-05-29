@@ -66,6 +66,9 @@
     // インスタンス$Animalの各プロバディを出力する
     print_r($Animal);
 
+    $Food->show_price();
+    $Animal->show_height();
+
 
     ?>
   </p>
